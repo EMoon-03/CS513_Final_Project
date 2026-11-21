@@ -96,13 +96,6 @@ CS513_DATA_DIR=data_fake CS513_RESULTS_DIR=data_fake/results python -m src.build
 
 Never put fake-data results in the slides.
 
-## Course requirements
-
-- Every code file starts with the course header (course, first name, last name,
-  ID, purpose). Fill in the `<fill in>` lines.
-- AI-generated code is marked with an `AI NOTICE` line, and the prompts are in
-  `docs/AI_PROMPT_LOG.md`. Add an entry whenever AI writes more code.
-
 ## Sources
 
 - DOB NOW: Safety, Facades Compliance Filings, NYC Open Data, dataset `xubg-57si`.
@@ -110,3 +103,4 @@ Never put fake-data results in the slides.
 - DOB ECB Violations, NYC Open Data, dataset `6bgk-3dad`.
 - Published filings-only model used as a reference point (ROC AUC 0.766):
   https://huggingface.co/iaac-maai/day2-team1-unsafe-facade
+-Plus any other data sources too
